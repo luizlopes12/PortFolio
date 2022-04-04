@@ -57,7 +57,7 @@ export const BannerStyle = styled.section`
       }
       p {
         margin-top: 20px;
-        font-size: 1.05em;
+        font-size: 1.2em;
         color: #959595;
         width: 100%;
       }
