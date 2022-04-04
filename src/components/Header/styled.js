@@ -54,7 +54,7 @@ export const HeaderStyle = styled.header`
       ul {
         height: 100vh;
         width: 100vw;
-        background-color: #262626;
+        background-color: #0a0a0a;
         display: flex;
         flex-direction: column;
         align-items: center;
