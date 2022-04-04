@@ -17,6 +17,9 @@ export const HeaderStyle = styled.header`
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
+    img {
+      height: 60px;
+    }
   }
   nav {
     ul {

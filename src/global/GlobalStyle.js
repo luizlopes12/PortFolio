@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     *, body{
@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         background-color: #323232;
-        background-image: url(${require('../img/bg-shape.svg').default});
+        background-image: url(${require("../img/bg-shape.svg").default});
         background-repeat: no-repeat;
         background-position: right top;
     }
@@ -22,4 +22,4 @@ const GlobalStyle = createGlobalStyle`
     }
 `;
 
-export default GlobalStyle
+export default GlobalStyle;
