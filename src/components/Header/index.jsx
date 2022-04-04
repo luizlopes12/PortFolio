@@ -6,7 +6,6 @@ const Header = () => {
   const [toggled, setToggled] = useState(true);
   const navOpen = () => {
     setToggled(!toggled);
-    console.log(toggled);
   };
   return (
     <HeaderStyle toggled={toggled}>
