@@ -25,13 +25,13 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Sobre</Link>
+            <Link to="/" onClick={navOpen}>Sobre</Link>
           </li>
           <li>
-            <Link to="/projects">Projetos</Link>
+            <Link to="/projects" onClick={navOpen}>Projetos</Link>
           </li>
           <li>
-            <Link to="/contact">Contato</Link>
+            <Link to="/contact" onClick={navOpen}>Contato</Link>
           </li>
         </ul>
       </nav>
