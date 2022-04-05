@@ -54,6 +54,7 @@ export const HeaderStyle = styled.header`
     padding-top: 10px;
     nav {
       position: fixed;
+      z-index: 9999;
       top: 80px;
       right: 0;
       transform: ${(props) =>

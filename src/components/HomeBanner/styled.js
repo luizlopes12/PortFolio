@@ -1,4 +1,6 @@
 import styled from "styled-components";
+const title = '#f0f0f0'
+const text = '#c7c7c7'
 
 export const BannerStyle = styled.section`
   width: 80%;
@@ -11,12 +13,12 @@ export const BannerStyle = styled.section`
       font-size: 3.5em;
       font-weight: 500;
       margin-top: 60px;
-      color: #dedede;
+      color: ${title};
     }
     p {
       margin-top: 20px;
       font-size: 1.1em;
-      color: #959595;
+      color: ${text};
       width: 65%;
     }
     button {
@@ -57,12 +59,12 @@ export const BannerStyle = styled.section`
         font-size: 2.2em;
         font-weight: 500;
         margin-top: 10px;
-        color: #dedede;
+        color: ${title};
       }
       p {
         margin-top: 20px;
         font-size: 1.2em;
-        color: #959595;
+        color: ${text};
         width: 100%;
       }
       button {

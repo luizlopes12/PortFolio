@@ -8,8 +8,7 @@ const HomeBanner = () => {
       <aside>
         <h1>Olá, Eu sou o Luiz Desenvolvedor Front End React</h1>
         <p>
-          Desenvolvo aplicações Fullstack com React e Firebase, estou em busca
-          de uma oportunidade como Desenvolvedor Front End ou Fullstack Junior.
+          18 Anos, apaixonado por tecnologia e obcecado em aprender continuamente, procuro uma oportunidade como estagiário de Desenvolvimento Web.
         </p>
         <button>
           <span>

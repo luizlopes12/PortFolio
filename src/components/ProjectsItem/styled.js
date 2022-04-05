@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
+const title = '#f0f0f0'
+const text = '#c7c7c7'
+
 export const ItemStyle = styled.div`
-  border-radius: 8px;
   display: flex;
   margin-bottom: 50px;
   img {
@@ -9,20 +11,20 @@ export const ItemStyle = styled.div`
   }
   aside {
     h2 {
-      color: #dedede;
+      color: ${title};
       font-size: 2.5em;
       margin-top: 20px;
     }
     p {
-      color: #959595;
+      color: ${text};
       margin-top: 20px;
       margin-bottom: 60px;
     }
     h3{
-        color: #dedede;
+        color: ${title};
     }
     span{
-        color: #959595;
+        color: ${text};
         margin-bottom: 50px;
     }
     div {
@@ -35,5 +37,43 @@ export const ItemStyle = styled.div`
         align-items: center;
       }
     }
+  }
+  @media(max-width: 900px){
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  img {
+    width: 300px;
+    margin: auto;
+  }
+  aside {
+    h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+    p {
+      color: ${text};
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    h3{
+        color: #f0f0f0;
+        margin: 10px 0;
+    }
+    span{
+        color: #c7c7c7;
+        margin-bottom: 20px;
+    }
+    div {
+      display: flex;
+      margin-top: 40px;
+      justify-content: space-between;
+      button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
   }
 `;

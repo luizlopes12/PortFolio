@@ -11,11 +11,6 @@ const GlobalStyle = createGlobalStyle`
     }
     body{
         background-color: #323232;
-
-    }
-    @media(max-width: 900px){
-        body{
-        }
     }
 `;
 
