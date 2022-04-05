@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 export const FooterStyles = styled.footer`
-    width: 100%;
+    max-width: 100%;
+    margin: auto;
     height: 100px;
     background-color: #0f0f0f;
     margin-top: 100px;

@@ -9,7 +9,7 @@ export const HomeStyle = styled.section`
   margin: auto;
 
   @media (min-width: 1440px) {
-    max-width: 1200px;
+    max-width: 1366px;
   }
   @media (max-width: 900px) {
     max-width: 100%;
