@@ -9,7 +9,7 @@ export const BannerStyle = styled.section`
   justify-content: space-between;
   aside {
     h1 {
-      width: 70%;
+      width: 68%;
       font-size: 3.5em;
       font-weight: 500;
       margin-top: 60px;
