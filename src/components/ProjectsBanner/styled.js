@@ -10,7 +10,7 @@ export const ProjectsBannerStyle = styled.section`
         margin: auto;
         text-align: center;
         font-size: 3em;
-        font-weight: 300;
+        font-weight: 500;
         border-bottom: 2px solid #ccc;
         margin-bottom: 10px;
         padding-bottom: 5px;

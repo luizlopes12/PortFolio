@@ -1,7 +1,7 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const title = '#f0f0f0'
-const text = '#c7c7c7'
+const title = "#f0f0f0";
+const text = "#c7c7c7";
 
 export const ItemStyle = styled.div`
   display: flex;
@@ -13,19 +13,26 @@ export const ItemStyle = styled.div`
     h2 {
       color: ${title};
       font-size: 2.5em;
+      font-weight: 400;
       margin-top: 20px;
     }
     p {
       color: ${text};
+      font-weight: 300;
       margin-top: 20px;
       margin-bottom: 60px;
+      font-size: 16px;
     }
-    h3{
-        color: ${title};
+    h3 {
+      color: ${title};
+      font-weight: 400;
     }
-    span{
-        color: ${text};
-        margin-bottom: 50px;
+    span {
+      color: ${text};
+      font-weight: 300;
+      font-size: 16px;
+
+      margin-bottom: 50px;
     }
     div {
       display: flex;
@@ -38,42 +45,42 @@ export const ItemStyle = styled.div`
       }
     }
   }
-  @media(max-width: 900px){
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-  img {
-    width: 300px;
-    margin: auto;
-  }
-  aside {
-    h2 {
-      font-size: 2em;
-      margin: 0;
+  @media (max-width: 900px) {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    img {
+      width: 300px;
+      margin: auto;
     }
-    p {
-      color: ${text};
-      margin-top: 10px;
-      margin-bottom: 20px;
-    }
-    h3{
+    aside {
+      h2 {
+        font-size: 2em;
+        margin: 0;
+      }
+      p {
+        color: ${text};
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      h3 {
         color: #f0f0f0;
         margin: 10px 0;
-    }
-    span{
+      }
+      span {
         color: #c7c7c7;
         margin-bottom: 20px;
-    }
-    div {
-      display: flex;
-      margin-top: 40px;
-      justify-content: space-between;
-      button {
+      }
+      div {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-top: 40px;
+        justify-content: space-between;
+        button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
       }
     }
-  }
   }
 `;
