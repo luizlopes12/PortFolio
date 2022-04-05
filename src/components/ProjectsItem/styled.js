@@ -37,7 +37,8 @@ export const ItemStyle = styled.div`
     div {
       display: flex;
       margin-top: 60px;
-      justify-content: space-evenly;
+      justify-content: center;
+      gap: 10px;
       button {
         display: flex;
         justify-content: center;
@@ -74,7 +75,6 @@ export const ItemStyle = styled.div`
       div {
         display: flex;
         margin-top: 40px;
-        justify-content: space-between;
         button {
           display: flex;
           justify-content: center;
