@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const BannerStyle = styled.section`
+  width: 80%;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   aside {

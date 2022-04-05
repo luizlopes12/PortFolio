@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ProjectsBannerStyle = styled.section`
+width: 80%;
+    margin: auto;
     display: flex;
     flex-direction: column;
     h1{
