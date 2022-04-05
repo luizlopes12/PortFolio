@@ -5,7 +5,7 @@ export const BannerStyle = styled.section`
   justify-content: space-between;
   aside {
     h1 {
-      width: 80%;
+      width: 70%;
       font-size: 3.5em;
       font-weight: 500;
       margin-top: 60px;
@@ -45,6 +45,8 @@ export const BannerStyle = styled.section`
     }
   }
   @media (max-width: 900px) {
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: column-reverse;
     aside {

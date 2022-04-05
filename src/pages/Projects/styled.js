@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
-export const HomeStyle = styled.section`
+export const ProjectsStyle = styled.section`
   background-image: url(${require("../../img/bg-shape.svg").default});
   background-repeat: no-repeat;
   background-position: 200px top;

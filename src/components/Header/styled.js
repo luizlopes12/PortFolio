@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 export const HeaderStyle = styled.header`
-  margin: 10px auto 20px;
+  padding: 10px 0;
+  margin: 0 auto 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,6 +48,9 @@ export const HeaderStyle = styled.header`
     display: none;
   }
   @media (max-width: 900px) {
+    width: 90%;
+    margin-top: 0;
+    padding-top: 10px;
     nav {
       position: fixed;
       top: 80px;

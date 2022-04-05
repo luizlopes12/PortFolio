@@ -9,7 +9,7 @@ const HomeBanner = () => {
         <h1>Olá, Eu sou o Luiz Desenvolvedor Front End React</h1>
         <p>
           Desenvolvo aplicações Fullstack com React e Firebase, estou em busca
-          de uma oportunidade como desenvolvedor Front End ou Fullstack Junior.
+          de uma oportunidade como Desenvolvedor Front End ou Fullstack Junior.
         </p>
         <button>
           <span>
