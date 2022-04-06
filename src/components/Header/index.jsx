@@ -35,6 +35,9 @@ const Header = () => {
             <Link to="/" onClick={navOpen}>Sobre</Link>
           </li>
           <li>
+            <Link to="/techs" onClick={navOpen}>Tecnologias</Link>
+          </li>
+          <li>
             <Link to="/projects" onClick={navOpen}>Projetos</Link>
           </li>
           <li>

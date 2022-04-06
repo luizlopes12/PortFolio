@@ -7,7 +7,6 @@ const Home = () => {
   return (
       <HomeStyle>
       <HomeBanner/>
-      <TechBanner/>
       </HomeStyle>
   )
 }
