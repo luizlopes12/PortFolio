@@ -13,7 +13,7 @@ const ContactBanner = () => {
         <h1>Entre em contato</h1>
         <section>
             <div>
-                <p>
+                <p className='email'>
                     <img src={email} alt="Redes sociais" />
                 </p>
                 <p>Email</p>

@@ -22,6 +22,9 @@ export const ContactBannerStyles = styled.section`
             flex-direction: column;
             justify-content: start;
             align-items: center;
+            .email{
+                margin-bottom: 15px;
+            }
             p{
                 display: flex;
                 align-items: center;
@@ -32,9 +35,7 @@ export const ContactBannerStyles = styled.section`
                     filter: invert(100%);
                 }
             }
-            span{
-                margin-top: 10px;
-            }
+
             ul{
                 list-style: none;
                 display: flex;
