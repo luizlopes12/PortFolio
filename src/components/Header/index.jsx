@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import logo from "../../img/logo.svg";
 const Header = () => {
   const [toggled, setToggled] = useState(true);
+  //Utilizando o hook local useBlockScroll
   const [blockScroll, allowScroll] = useScrollBlock()
   const navOpen = () => {
     setToggled(!toggled);
