@@ -26,17 +26,17 @@ const ContactBanner = () => {
                 <p>Redes sociais</p>
                 <ul>
                     <li>
-                        <a href="https://www.linkedin.com/in/luiz-lopes-30b512218/">
+                        <a href="https://www.linkedin.com/in/luiz-lopes-30b512218/" target='noreferrer'>
                         <img src={linkedin} alt="LinkedIn" />
                         </a>
                     </li>
                     <li>
-                    <a href="https://www.instagram.com/confuzzo/">
+                    <a href="https://www.instagram.com/confuzzo/" target='noreferrer'>
                         <img src={insta} alt="Instagram" />
                         </a>
                     </li>
                     <li>
-                    <a href="https://twitter.com/Luizlopes24">
+                    <a href="https://twitter.com/Luizlopes24" target='noreferrer'>
                         <img src={twitter} alt="Twitter" />
                         </a>
                     </li>
