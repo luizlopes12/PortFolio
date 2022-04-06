@@ -59,7 +59,7 @@ const TechBanner = () => {
       <div>
         <h3>Conceitos básicos em:</h3>
         <section>
-          <p>UI/UX, Material UI, Bootstrap, Node, C#, .NET, PHP, MongoDB e MySQL.</p>
+          <p>UI/UX, Material UI, Bootstrap, jQuery, Node, C#, .NET, PHP, MongoDB e MySQL.</p>
           <ul>
             <li>
               <img src={material} alt="Material UI" />
