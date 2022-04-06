@@ -1,4 +1,13 @@
 import React from 'react'
+import html from '../../img/html.svg'
+import css from '../../img/css.svg'
+import javascript from '../../img/javascript.svg'
+import react from '../../img/react.svg'
+import redux from '../../img/redux.svg'
+import styled from '../../img/styled.png'
+import firebase from '../../img/firebase.svg'
+import figma from '../../img/figma.svg'
+
 import { TechStyles } from './styled'
 const TechBanner = () => {
   return (
@@ -14,7 +23,28 @@ const TechBanner = () => {
             </p>
             <ul>
                 <li>
-                    <img src="" alt="" />
+                    <img src={html} alt="HTML" />
+                </li>
+                <li>
+                    <img src={css} alt="CSS" />
+                </li>
+                <li>
+                    <img src={javascript} alt="javascript" />
+                </li>
+                <li>
+                    <img src={react} alt="React" />
+                </li>
+                <li>
+                    <img src={redux} alt="Redux" />
+                </li>
+                <li>
+                    <img src={styled} alt="Styled Components" />
+                </li>
+                <li>
+                    <img src={firebase} alt="Firebase" />
+                </li>
+                <li>
+                    <img src={figma} alt="Figma" />
                 </li>
             </ul>
             </section>

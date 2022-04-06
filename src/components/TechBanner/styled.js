@@ -19,6 +19,18 @@ export const TechStyles = styled.section`
     section{
         display: flex;
         justify-content: space-between;
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 5px;
+            max-width: 40%;
+            flex-wrap: wrap;
+            li{
+                img{
+                    width: 90px;
+                }
+            }
+        }
     }
     p{
         font-size: 1.1em;
