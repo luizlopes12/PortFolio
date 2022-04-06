@@ -19,12 +19,12 @@ const ProjectsItem = ({img, title, desc, tech, linkRepo, linkSite}) => {
                 {tech}
             </span>
             <div>
-            <a href={linkRepo} target='_blank'>
+            <a href={linkRepo} target='noreferrer'>
             <LinkButton><img src={gitIcon} alt="Github icon" /> 
             Repositório
             </LinkButton>
             </a>
-            <a href={linkSite} target='_blank'>
+            <a href={linkSite} target='noreferrer'>
             <LinkButton><img src={linkIcon} alt="Github icon" /> 
             Site
             </LinkButton>

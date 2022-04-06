@@ -44,8 +44,8 @@ const ProjectsBanner = () => {
       title='Feedback UI'
       desc='Front End de uma pagina de captura de feedbacks sobre algum produto ou serviço.'
       tech='React e CSS'
-      linkRepo='https://github.com/luizlopes12/Enver'
-      linkSite='https://luizlopes12.github.io/Enver/'
+      linkRepo='https://github.com/luizlopes12/feedback-app'
+      linkSite='https://feedbackapp-p2lw5teau-luizlopes12.vercel.app/'
       />
       <h1>Landing Pages</h1>
       <ProjectsItem 
@@ -103,8 +103,8 @@ const ProjectsBanner = () => {
       title='CEP Info'
       desc='Desafio para estagiário front end na DivTech, o objetivo era consumir a api ViaCEP para verificar a cidade e estado do usuario.'
       tech='HTML, CSS, Javascript e Jquery'
-      linkRepo='https://github.com/luizlopes12/Fruitz'
-      linkSite='https://fruitz.vercel.app/'
+      linkRepo='https://github.com/luizlopes12/cep-info'
+      linkSite='https://cep-info.vercel.app/'
       />
       <ProjectsItem 
       img={trii}
