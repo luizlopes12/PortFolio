@@ -76,6 +76,9 @@ export const HeaderStyle = styled.header`
       display: inherit;
     }
   }
+  @media (min-width: 1440px) {
+    max-width: 1440px;
+  }
 `;
 
 export const NavButton = styled.section`

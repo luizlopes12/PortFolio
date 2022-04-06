@@ -1,12 +1,13 @@
 import React from 'react'
-import Header from '../../components/Header'
 import HomeBanner from '../../components/HomeBanner'
+import TechBanner from '../../components/TechBanner'
 import { HomeStyle } from  './styled'
+
 const Home = () => {
   return (
       <HomeStyle>
-      <Header/>
       <HomeBanner/>
+      <TechBanner/>
       </HomeStyle>
   )
 }
