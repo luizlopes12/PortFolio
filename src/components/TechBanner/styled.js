@@ -5,19 +5,17 @@ export const TechStyles = styled.section`
     width: 80%;
     margin: auto;
     h2{
-        color: ${title};
         margin-top: 20px;
         font-size: 3em;
-        font-weight: 400;
+        font-weight: 500;
         padding-bottom: 5px;
-        border-bottom: 1px solid ${text};
+        border-bottom: 2px solid #ccc;
         width: 320px;
     }
     h3{
-        color: ${title};
         margin-top: 20px;
         font-size: 1.5em;
-        font-weight: 300;
+        font-weight: 400;
     }
     section{
         display: flex;
@@ -36,9 +34,41 @@ export const TechStyles = styled.section`
         }
     }
     p{
+        color: ${text};
         font-size: 1.1em;
         margin-top: 5px;
         font-weight: 300;
         width: 45%;
+    }
+    @media(max-width: 900px){
+    width: 90%;
+    margin: auto;
+    h2{
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        width: 200px;
+    }
+    h3{
+        color: ${title};
+        margin-top: 20px;
+        font-size: 1.5em;
+    }
+    section{
+        flex-direction: column;
+        ul{
+            max-width: 100%;
+            li{
+                img{
+                    width: 60px;
+                }
+            }
+        }
+    }
+    p{
+        margin-top: 10px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
     }
 `;

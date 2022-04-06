@@ -8,8 +8,8 @@ export const ContactBannerStyles = styled.section`
         font-size: 3em;
         margin: auto;
         text-align: center;
-        font-weight: 400;
-        border-bottom: 1px solid #fff;
+        font-weight: 500;
+        border-bottom: 2px solid #ccc;
     }
     section{
         display: flex;
@@ -39,12 +39,45 @@ export const ContactBannerStyles = styled.section`
                 list-style: none;
                 display: flex;
                 justify-content: center;
-                gap: 10px;
+                gap: 20px;
                 img{
                     filter: invert(100%);
                     width: 30px;
                 }
             }
         }
+    }
+    @media(max-width: 900px){
+    width: 90%;
+    margin: auto;
+    h1{
+        width: 250px;
+        font-size: 2em;
+    }
+    section{
+        flex-direction: column;
+        gap: 5px;
+        div{
+            width: 100%;
+            padding: 30px 0;
+            p{
+                margin: 5px;
+                img{
+                    width: 50px;
+                }
+            }
+            span{
+                margin-top: 5px;
+            }
+            ul{
+                margin-top: 20px;
+                gap: 25px;
+                img{
+                    filter: invert(100%);
+                    width: 40px;
+                }
+            }
+        }
+    }
     }
 `;
