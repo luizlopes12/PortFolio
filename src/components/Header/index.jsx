@@ -1,15 +1,17 @@
 import React, { useState } from "react";
+import { useScrollBlock } from '../../hooks/useScrollBlock' 
 import { HeaderStyle, NavButton } from "./styled";
 import { Link } from "react-router-dom";
 import logo from "../../img/logo.svg";
 const Header = () => {
   const [toggled, setToggled] = useState(true);
+  const [blockScroll, allowScroll] = useScrollBlock()
   const navOpen = () => {
     setToggled(!toggled);
   };
   //Bloqueia o scroll quando o menu estiver aberto
-    window.onscroll = () =>{
-      !toggled && window.scrollTo(0, 0)
+    window.onscroll = ()=>{
+      !toggled ? blockScroll() : allowScroll()
     }
 
   return (
