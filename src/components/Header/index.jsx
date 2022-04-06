@@ -10,7 +10,7 @@ const Header = () => {
     setToggled(!toggled);
   };
   //Bloqueia o scroll quando o menu estiver aberto
-  !toggled ? blockScroll() : allowScroll()
+  !toggled && window.screen.availWidth <= 900 ? blockScroll() : allowScroll()
 
   return (
     <HeaderStyle toggled={toggled}>
