@@ -25,7 +25,7 @@ const TechBanner = () => {
         <h3>Principalmente focado em:</h3>
         <section>
           <p>
-            HTML, CSS, Javascript, React, Redux, Styled Components, Axios,
+            HTML, CSS, Javascript, GIT, GitHub, React, Redux, Styled Components, Axios,
             Firebase e Figma.
           </p>
           <ul>
