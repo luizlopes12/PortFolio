@@ -28,7 +28,7 @@ export const ContactBannerStyles = styled.section`
                 justify-content: center;
                 margin: 5px;
                 img{
-                    width: 80px;
+                    width: 50px;
                     filter: invert(100%);
                 }
             }
