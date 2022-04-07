@@ -36,7 +36,7 @@ const TechBanner = () => {
               <img src={css} alt="CSS" />
             </li>
             <li>
-              <img src={javascript} alt="javascript" />
+              <img src={javascript} alt="javascript" className="tech"/>
             </li>
             <li>
               <img src={react} alt="React" />

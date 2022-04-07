@@ -1,6 +1,12 @@
-import styled from 'styled-components'
+import styled, {keyframes} from 'styled-components'
 const title = '#f0f0f0'
 const text = '#c7c7c7'
+
+const grayEffect = keyframes`
+0% { filter: grayscale(0%); }
+50% { filter: grayscale(50%); }
+100% { filter: grayscale(100%); }
+`
 export const TechStyles = styled.section`
     width: 80%;
     margin: auto;
@@ -29,6 +35,13 @@ export const TechStyles = styled.section`
             li{
                 img{
                     width: 90px;
+                    filter: grayscale(100%);
+                    transition: all .3s ease-in-out;
+                    animation-name: ${grayEffect};
+                    animation-duration: 5s;
+                    &:hover{
+                    filter: grayscale(0%);
+                    }
                 }
             }
         }
@@ -57,6 +70,7 @@ export const TechStyles = styled.section`
     section{
         flex-direction: column;
         ul{
+            justify-content: center;
             max-width: 100%;
             li{
                 img{

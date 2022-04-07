@@ -11,7 +11,8 @@ const HomeBanner = () => {
   return (
     <BannerStyle>
       <aside>
-        <h1>Olá, Eu sou o Luiz Desenvolvedor Front End React</h1>
+        <h1>Olá, Eu sou o Luiz</h1>
+        <h2>Desenvolvedor Front End React</h2>
         <p>
           18 Anos, apaixonado por tecnologia e obcecado em aprender continuamente, procuro uma oportunidade como estagiário de Desenvolvimento Web.
         </p>

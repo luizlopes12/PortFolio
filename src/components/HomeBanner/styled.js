@@ -15,6 +15,12 @@ export const BannerStyle = styled.section`
       margin-top: 60px;
       color: ${title};
     }
+    h2{
+      font-weight: 400;
+      font-size:  2em;
+      color: ${title};
+      margin-top: 10px;
+    }
     p {
       margin-top: 20px;
       font-size: 1.1em;
@@ -61,6 +67,11 @@ export const BannerStyle = styled.section`
         margin-top: 10px;
         color: ${title};
       }
+      h2{
+      font-weight: 400;
+      font-size:  1.5em;
+      margin-top: 5px;
+    }
       p {
         margin-top: 20px;
         font-size: 1.2em;
