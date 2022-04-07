@@ -1,12 +1,7 @@
-import styled, {keyframes} from 'styled-components'
+import styled from 'styled-components'
 const title = '#f0f0f0'
 const text = '#c7c7c7'
 
-const grayEffect = keyframes`
-0% { filter: grayscale(0%); }
-50% { filter: grayscale(50%); }
-100% { filter: grayscale(100%); }
-`
 export const TechStyles = styled.section`
     width: 80%;
     margin: auto;
@@ -36,9 +31,7 @@ export const TechStyles = styled.section`
                 img{
                     width: 90px;
                     filter: grayscale(100%);
-                    transition: all .3s ease-in-out;
-                    animation-name: ${grayEffect};
-                    animation-duration: 5s;
+                    transition: all .2s ease-in-out;
                     &:hover{
                     filter: grayscale(0%);
                     }
