@@ -5,12 +5,13 @@ import { Link } from "react-router-dom";
 import logo from "../../img/logo.svg";
 const Header = () => {
   const [toggled, setToggled] = useState(true);
+  //Utilizando o hook local useBlockScroll
   const [blockScroll, allowScroll] = useScrollBlock()
   const navOpen = () => {
     setToggled(!toggled);
   };
   //Bloqueia o scroll quando o menu estiver aberto
-  !toggled ? blockScroll() : allowScroll()
+  !toggled && window.screen.availWidth <= 900 ? blockScroll() : allowScroll()
 
   return (
     <HeaderStyle toggled={toggled}>
