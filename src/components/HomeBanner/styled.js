@@ -28,20 +28,27 @@ export const BannerStyle = styled.section`
       width: 65%;
     }
     button {
-      margin: 50px 0;
+      margin: 80px 0;
       display: flex;
-      gap: 5px;
       justify-content: center;
       background-color: #6441a5;
       border: 0;
-      padding: 15px 15px;
-      width: 240px;
+      padding: 10px 50px;
       border-radius: 8px;
       font-size: 1em;
       cursor: pointer;
       transition: all 0.2s ease-in-out;
       &:hover {
         box-shadow: 0px 5px 25px 0px #6a4ba6;
+      }
+      span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      gap: 5px;
+        img{
+          filter: invert(100%);
+        }
       }
     }
   }
