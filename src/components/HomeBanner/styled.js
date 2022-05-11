@@ -27,8 +27,15 @@ export const BannerStyle = styled.section`
       color: ${text};
       width: 65%;
     }
-    button {
+
+    .buttons{
       margin: 80px 0;
+      display: flex;
+      gap: 50px;
+    }
+
+
+    button {
       display: flex;
       justify-content: center;
       background-color: #6441a5;
@@ -47,6 +54,7 @@ export const BannerStyle = styled.section`
         align-items: center;
       gap: 5px;
         img{
+          width: 30px;
           filter: invert(100%);
         }
       }

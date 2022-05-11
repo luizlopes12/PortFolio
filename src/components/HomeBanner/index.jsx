@@ -2,6 +2,8 @@ import React from "react";
 import { BannerStyle } from "./styled";
 import gitIcon from "../../img/github.svg";
 import euImg from "../../img/eu.jpg";
+import downArrow from '../../img/downArrow.png'
+import curriculo from '../../img/Luiz_Lopes.pdf'
 const HomeBanner = () => {
   return (
     <BannerStyle>
@@ -13,6 +15,7 @@ const HomeBanner = () => {
           continuamente, procuro uma oportunidade como estagiário de
           Desenvolvimento Web.
         </p>
+        <div className="buttons">
         <button>
           <a href="https://github.com/luizlopes12">
             <span>
@@ -21,6 +24,15 @@ const HomeBanner = () => {
             </span>
           </a>
         </button>
+        <button>
+          <a href={curriculo} download='Luiz_Lopes.pdf'>
+            <span>
+              <img src={downArrow} alt="Download" />
+              Curriculo
+            </span>
+          </a>
+        </button>
+        </div>
       </aside>
       <section>
         <div>
