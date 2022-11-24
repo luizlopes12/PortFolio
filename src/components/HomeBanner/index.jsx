@@ -9,11 +9,10 @@ const HomeBanner = () => {
     <BannerStyle>
       <aside>
         <h1>Olá, Eu sou o Luiz</h1>
-        <h2>Desenvolvedor Front End React</h2>
+        <h2>Desenvolvedor Front End</h2>
         <p>
-          18 Anos, apaixonado por tecnologia e obcecado em aprender
-          continuamente, procuro uma oportunidade como estagiário de
-          Desenvolvimento Web.
+          Sou um desenvolvedor junior com mais de 1 ano de experiência em React.js, React Native e Vue.js, 
+          atualmente estou à procura de um cargo como desenvolvedor Front-end Pleno ou Fullstack Junior, utilizando Node.js e express no Back-end.
         </p>
         <div className="buttons">
         <button>
