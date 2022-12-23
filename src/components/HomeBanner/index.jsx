@@ -34,7 +34,7 @@ const HomeBanner = () => {
       </aside>
       <section>
         <div>
-          <img src='https://avatars.githubusercontent.com/u/71521080?v=4' alt="Foto minha" />
+          <img src={euImg} alt="Foto minha" />
         </div>
       </section>
     </BannerStyle>
