@@ -9,7 +9,7 @@ const HomeBanner = () => {
     <BannerStyle>
       <aside>
         <h1>Olá, Eu sou o Luiz</h1>
-        <h2>Desenvolvedor Front End</h2>
+        <h2>Desenvolvedor Web</h2>
         <p>
           Sou um desenvolvedor web com cerca de 1 ano de experiência em React.js, React Native, Vue.js e Node.js
         </p>
