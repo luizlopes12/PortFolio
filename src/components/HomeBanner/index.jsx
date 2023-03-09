@@ -3,15 +3,25 @@ import { BannerStyle } from "./styled";
 import gitIcon from "../../img/github.svg";
 import euImg from "../../img/eu.jpg";
 import downArrow from '../../img/downArrow.png'
-import curriculo from '../../img/Luiz_Lopes.pdf'
+import curriculo1 from '../../img/curriculos/Luiz_Lopes_Pt.pdf'
+import curriculo2 from '../../img/curriculos/Luiz_Lopes_En.pdf'
+import curriculo3 from '../../img/curriculos/Luiz_Lopes_Es.pdf'
+
 const HomeBanner = () => {
+  if(navigator.language === 'pt'){
+    var curriculo = curriculo1
+  }else if(navigator.language === 'es'){
+    var curriculo = curriculo3
+  }else{
+    var curriculo = curriculo2
+  }
   return (
     <BannerStyle>
       <aside>
         <h1>Olá, Eu sou o Luiz</h1>
         <h2>Desenvolvedor Web</h2>
         <p>
-          Sou um desenvolvedor web com cerca de 1 ano de experiência em React.js, React Native, Vue.js e Node.js
+          Sou um desenvolvedor web com mais de 1 ano de experiência em React.js, Vue.js e Node.js
         </p>
         <div className="buttons">
         <button>
