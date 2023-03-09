@@ -3,9 +3,9 @@ import { BannerStyle } from "./styled";
 import gitIcon from "../../img/github.svg";
 import euImg from "../../img/eu.jpg";
 import downArrow from '../../img/downArrow.png'
-import curriculo1 from '../../img/curriculos/Luiz_Lopes_Pt.pdf'
-import curriculo2 from '../../img/curriculos/Luiz_Lopes_En.pdf'
-import curriculo3 from '../../img/curriculos/Luiz_Lopes_Es.pdf'
+import curriculo1 from '../../img/curriculos/Luiz__Lopes_Pt.pdf'
+import curriculo2 from '../../img/curriculos/Luiz__Lopes_En.pdf'
+import curriculo3 from '../../img/curriculos/Luiz__Lopes_Es.pdf'
 
 const HomeBanner = () => {
   if(navigator.language === 'pt'){
