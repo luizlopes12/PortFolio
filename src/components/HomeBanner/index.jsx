@@ -8,7 +8,6 @@ import curriculo2 from '../../img/curriculos/Luiz__Lopes_En.pdf'
 import curriculo3 from '../../img/curriculos/Luiz__Lopes_Es.pdf'
 
 const HomeBanner = () => {
-  console.log(navigator.language)
   if(navigator.language.includes('pt')){
     var curriculo = curriculo1
   }else if(navigator.language.includes('es')){
