@@ -9,9 +9,9 @@ import curriculo3 from '../../img/curriculos/Luiz__Lopes_Es.pdf'
 
 const HomeBanner = () => {
   console.log(navigator.language)
-  if(navigator.language === 'pt'){
+  if(navigator.language.includes('pt')){
     var curriculo = curriculo1
-  }else if(navigator.language === 'es'){
+  }else if(navigator.language.includes('es')){
     var curriculo = curriculo3
   }else{
     var curriculo = curriculo2
