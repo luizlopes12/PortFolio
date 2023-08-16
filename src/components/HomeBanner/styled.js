@@ -7,6 +7,10 @@ export const BannerStyle = styled.section`
   margin: auto;
   display: flex;
   justify-content: space-between;
+  .linkedin{
+    text-decoration: underline;
+    color: #fff;
+  }
   aside {
     h1 {
       width: 68%;

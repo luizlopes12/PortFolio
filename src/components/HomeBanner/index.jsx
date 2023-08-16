@@ -19,9 +19,12 @@ const HomeBanner = () => {
     <BannerStyle>
       <aside>
         <h1>Olá, Eu sou o Luiz</h1>
-        <h2>Desenvolvedor Web</h2>
+        <h2>Desenvolvedor Fullstack</h2>
         <p>
-          Sou um desenvolvedor web com mais de 1 ano de experiência em React.js, Vue.js e Node.js
+          Sou um desenvolvedor Fullstack, utilizando React, Vue, Node e Typescript. <br />
+          Você pode visualizar meu <a className="linkedin" href="https://www.linkedin.com/in/luizlopes12/" target="_blank">LinkedIn</a> para mais detalhes
+          <br />
+          (Portfólio criado em 12/2021)
         </p>
         <div className="buttons">
         <button>
