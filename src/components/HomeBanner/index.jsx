@@ -19,12 +19,9 @@ const HomeBanner = () => {
     <BannerStyle>
       <aside>
         <h1>Olá, Eu sou o Luiz</h1>
-        <h2>Desenvolvedor Fullstack</h2>
+        <h2>Desenvolvedor Front end</h2>
         <p>
-          Sou um desenvolvedor Fullstack, utilizando React, Vue, Node e Typescript. <br />
-          Você pode visualizar meu <a className="linkedin" href="https://www.linkedin.com/in/luizlopes12/" target="_blank">LinkedIn</a> para mais detalhes
-          <br />
-          (Portfólio criado em 12/2021)
+          Sou um desenvolvedor Front end iniciante, focado em React, em busca de novas oportunidades no mundo de desenvolvimento web.
         </p>
         <div className="buttons">
         <button>
